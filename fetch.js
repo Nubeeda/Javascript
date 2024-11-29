@@ -1,13 +1,4 @@
-// promise fetch
-// let p=fetch("https://fakestoreapi.com/products");
-// p.then((response)=>{
-//     console.log(response.status);
-//     console.log(response.ok);
 
-//     return response.json();
-// }).then((res2=>{
-//     console.log(res2);
-// }))
 fetch("https://fakestoreapi.com/products")
     .then((res) => res.json())
     .then((data) => {
