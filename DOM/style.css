@@ -1,0 +1,25 @@
+h1{
+    background-color:rgb(235, 183, 116);
+    color: rgb(73, 14, 128);
+}
+button{
+    background-color: rgb(57, 154, 154);
+    color:white;
+}
+body{
+    background-color: rgb(186, 190, 155);
+}
+div{
+    height: 100px;
+    width: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+.dark{
+    background-color:black;
+    color: white;
+}
+.light{
+    background-color:white;
+    color: black;
+}
